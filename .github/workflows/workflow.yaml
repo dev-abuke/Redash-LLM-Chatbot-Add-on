@@ -47,7 +47,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           # The Docker build context
-          context: .
+          context: ./redash/redash_source
           # Whether to push the Docker image
           push: true
           # The tags for the Docker image
